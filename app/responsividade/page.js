@@ -21,12 +21,12 @@ function calcular () {setimc((peso / (altura*altura)).toFixed(2))}
             <div className='flex flex-col sm:flex-row gap-16 justify-center items-center mt-10'>
                 
                 <div className='flex flex-col items-center'>
-                    <input type='number' placeholder='0.00' className=" w-full max-w-[140px] h-[35px] border-b-2 border-white bg-transparent text-white font-semibold focus:outline-none text-center" value={peso} onChange={(e) => setpeso(parseFloat(e.target.value)}/>
+                    <input type='number' placeholder='0.00' className=" w-full max-w-[140px] h-[35px] border-b-2 border-white bg-transparent text-white font-semibold focus:outline-none text-center" value={peso} onChange={(e) => setpeso(parseFloat(e.target.value))}/>
                     <h2 className="text-white font-semibold text-lg">Digite seu Peso</h2>
                 </div>
 
                 <div className='flex flex-col items-center'>
-                    <input type='number'placeholder='0.00' className=" w-full max-w-[140px] h-[35px] border-b-2 border-white bg-transparent text-white font-semibold focus:outline-none text-center" value={altura} onChange={(e) => setaltura(parseFloat(e.target.value)}/>
+                    <input type='number'placeholder='0.00' className=" w-full max-w-[140px] h-[35px] border-b-2 border-white bg-transparent text-white font-semibold focus:outline-none text-center" value={altura} onChange={(e) => setaltura(parseFloat(e.target.value))}/>
                     <h2 className="text-white font-semibold text-lg">Digite sua Altura</h2>
                 </div>
                 
